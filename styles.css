@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  
+  backg
+background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  
+ 
+width: 80%;
+  margin: 0 auto;
+  
+  backgrou
+
+  backg
+
+  ba
+background-color: #ffffff;
+  
+  box-sh
+
+  box
+
+ 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+  ove
+
+ 
+overflow: hidden;
+}
+
+.header, .footer {
+  
+  backgroun
+
+  bac
+background-color: #2196f3;
+  
+  c
+color: white;
+  
+  paddi
+padding: 10px 0;
+  text-align: center;
+}
+
+.header h1, .footer p {
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #1e88e5;
+  
+  text-al
+text-align: center;
+  
+  bor
+border-bottom: 1px solid #1976d2;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: white;
+  
+  text-
+text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+
+}
+.menu li a:hover {
+  
+  backgrou
+
+ 
+background-color: #1565c0;
+}
+
+.section {
+  margin-bottom: 20px;
+  background-color: #e3f2fd;
+  border: 1px solid #bbdefb;
+  
+  paddi
+padding: 15px;
+  
+  bord
+border-radius: 4px;
+}
+
+
+}
+.section h3 {
+  
+  backg
+background-color: #bbdefb;
+  padding: 10px;
+  margin: 0;
+  
+  bor
+border-radius: 4px 4px 0 0;
+}
+
+.section p, .section ul {
+  
+  paddin
+
+ 
+padding: 10px 0;
+}
+
+
+}
+.footer {
+  
+ 
+background-color: #2196f3;
+  color: white;
+  
+  text-text-align: center;
+  padding: 10px 0;
+  
+  cle
+clear: both;
+}
+
+.edit-profile {
+  display: inline-block;
+  background-color: #2196f3;
+  
+ 
+color: white;
+  border: none;
+  padding: 10px 20px;
+  
+  text-decorati
+
+  text-de
+
+  t
+text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  transit
+transition: background-color 0.3s;
+}
+
+.edit-profile:hover {
+  background-color: #1976d2;
+}

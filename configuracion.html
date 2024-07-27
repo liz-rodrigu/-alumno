@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<
+<html lang="es">
+
+<
+<head>
+  
+ 
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+<title>Perfil de Usuario</title>
+  
+  <
+<link rel="stylesheet" href="styles.css">
+
+</hea
+</head>
+<body>
+  <div class="container">
+    
+    <
+<div class="header">
+      
+      <
+<h1>Perfil de Usuario</h1>
+      <nav>
+        
+        
+
+ 
+<ul class="menu">
+          
+        
+<li><a href="index.html">Inicio</a></li>
+          
+     
+<li><a href="perfil-usuario.html">Perfil de Usuario</a></li>
+          
+        
+<li><a href="configuracion.html">Configuración</a></li>
+        
+        
+
+ 
+</ul>
+      
+      <
+
+ 
+</nav>
+    </div>
+
+    
+
+  
+<div class="content">
+      
+      <
+<h2>Información Personal</h2>
+      <table class="profile-table">
+        
+        
+<tr>
+          
+          <
+
+   
+<th>Nombre</th>
+          
+       
+<td>Lizbeth Rodriguez</td>
+        
+  
+</tr>
+        
+    
+<tr>
+          
+          <
+
+    
+<th>Edad</th>
+          
+         
+
+ 
+<td>23</td>
+        
+        </tr
+</tr>
+        
+       
+<tr>
+          
+          <
+
+   
+<th>Email</th>
+          
+         
+<td>lizrm000@gmail.com</td>
+        
+        </t
+
+   
+</tr>
+      
+     
+</table>
+
+      
+
+     
+<div class="section">
+        
+ 
+<h3>Biografía</h3>
+        
+  
+<p>Lizbeth lleva dos años como manicurista y ama su trabajo.</p>
+      </div>
+
+      
+
+      
+
+
+  
+<div class="section">
+        
+  
+<h3>Hobbies</h3>
+        
+   
+<ul>
+          
+          
+
+    
+<li>Escuchar música</li>
+          
+          
+
+     
+<li>Viajar</li>
+          
+      
+<li>Bailar</li>
+          <li>Manualidades</li>
+        
+        </u
+
+   
+</ul>
+      
+      </div
+
+    
+</div>
+
+      
+
+    
+<div class="section">
+        <h3>Contactos</h3>
+        
+    
+<p>Si deseas contactar a Lizbeth, puedes enviarle un email a <a href="mailto:lizrm000@gmail.com">lizrm000@gmail.com</a>.</p>
+      
+   
+</div>
+
+      <div class="section">
+        <h3>Experiencia Laboral</h3>
+        
+ 
+<p>He trabajado como manicurista desde hace 2 años, haciendo uñas acrílicas, de gel semipermanente y baños de acrílico.</p>
+      
+      </d
+</div>
+
+      
+
+    
+<a href="#" class="edit-profile">Editar Perfil</a>
+    
+    </d
+</div>
+
+    
+
+  
+<div class="footer">
+      
+   
+<p>Pie de página</p>
+    </div>
+  
+  
+</div>
+</body>
+</html>
+Archivo CSS ( styles.css):
+css
+
+Copiar código
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  
+  backgr
+background-color: #e0f7fa;
+  
+  m
+margin: 0;
+  
+  padd
+padding: 0;
+}
+
+.container {
+  
+  widt
+width: 80%;
+  margin: 0 auto;
+  
+  backgroun
+
+  ba
+background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  
+border-radius: 8px;
+  overflow: hidden;
+}
+
+.header, .footer {
+  background-color: #2196f3;
+  color: white;
+  
+  
+padding: 10px 0;
+  
+  t
+text-align: center;
+}
+
+.header h1, .footer p {
+  
+ 
+margin: 0;
+}
+
+.content {
+  
+ 
+padding: 20px;
+}
+
+.menu {
+  
+  list
+list-style-type: none;
+  
+  pad
+padding: 0;
+  margin: 0;
+  
+  backg
+background-color: #1e88e5;
+  
+  text-alig
+text-align: center;
+  border-bottom: 1px solid #1976d2;
+}
+
+.menu li {
+  
+  disp
+display: inline;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: white;
+  
+  text-decor
+
+  t
+text-decoration: none;
+  
+  padd
+padding: 10px;
+  transition: background-color 0.3s;
+}
+
+
+}
+.menu li a:hover {
+  
+ 
+background-color: #1565c0;
+}
+
+.profile-table {
+  width: 100%;
+  
+  borde
+border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.profile-table th, .profile-table td {
+  
+  borde
+border: 1px solid #ddd;
+  padding: 12px;
+  
+  text-al
+
+ 
+text-align: left;
+}
+
+.profile-table th {
+  
+  back
+
+ 
+background-color: #f4f4f4;
+}
+
+
+}
+.section {
+  
+  marg
+margin-bottom: 20px;
+  background-color: #e3f2fd;
+  border: 1px solid #bbdefb;
+  
+  padd
+padding: 15px;
+  border-radius: 4px;
+}
+
+.section h3 {
+  
+  
+background-color: #bbdefb;
+  
+  
+padding: 10px;
+  margin: 0;
+  
+  bord
+border-radius: 4px 4px 0 0;
+}
+
+.section p, .section ul {
+  
+  pa
+padding: 10px 0;
+}
+
+.footer {
+  background-color: #2196f3;
+  color: white;
+  
+  text-alig
+text-align: center;
+  
+ 
+padding: 10px 0;
+  
+  c
+clear: both;
+}
+
+.edit-profile {
+  
+  dis
+display: inline-block;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  
+  pad
+padding: 10px 20px;
+  
+  text-dec
+
+ 
+text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  
+ 
+border-radius: 4px;
+  
+  c
+cursor: pointer;
+  
+  tra
+transition: background-color 0.3s;
+}
+
+.edit-profile:hover {
+  background-color: #1976d2;
+}
